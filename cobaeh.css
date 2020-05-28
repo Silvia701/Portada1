@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.barrasocial{
+    position: fixed;
+    top:150px;
+    width: 280px;
+}
+
+.barrasocial ul{
+    list-style:none;
+}
+.barrasocial ul li a{
+    display:inline-block;
+    color: #fff;
+    background: #000;
+    padding:15px 15px;
+    text-decoration: none;
+   
+}
+.barrasocial ul li .icon-twitter{ background:#00abf0;}
+.barrasocial ul li .icon-facebook{ background: #3b5998;}
+.barrasocial ul li .icon-instagram{ background: #CC2EFA;}
+.barrasocial ul li .icon-skype{ background:#00abf0;}
+.barrasocial ul li .icon-pinterest{ background:#DF0101;}
+.barrasocial ul li .icon-whatsapp{ background:#01DF3A;}
+.barrasocial ul li .icon-linkedin{ background:#045FB4;}
+
+.barrasocial ul li a:hover {
+    padding: 20px 35px;
+    background: #000;
+}
+h1{
+    background:#088A29;
+    width: 1380px;
+    position: relative;
+    top: 20px;
+    margin: 0%;
+    padding: 4px;
+    text-align: center;
+}
+
+.navegacion{
+    width: 1380px;
+    margin: 0 auto;
+    background:black ;
+    padding: 5px;
+    text-align: center;
+}
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding:  10px 50px;
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+.menu li a:hover{ 
+    color:orange;
+    transition: all 3s;
+}
+/*submenu1*/
+.submenu1{
+    position: absolute;
+    background:green;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity:0;
+    transition: opacity 1.5s;
+    
+}
+.submenu1 li a{ 
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu li:hover .submenu1{
+    visibility:visible;
+    opacity:1;
+}
+/*submenu2*/
+.submenu2{
+    position: absolute;
+    background:green;
+    width: 90%;
+    text-align:center;
+    visibility: hidden;
+    opacity:0;
+    transition: opacity 1.5s;
+    
+}
+.submenu2 li a{ 
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu li:hover .submenu2{
+    visibility:visible;
+    opacity:1;
+}
+/*submenu3*/
+.submenu3{
+    position: absolute;
+    background:green;
+    width: 100%;
+    text-align:center;
+    visibility: hidden;
+    opacity:0;
+    transition: opacity 1.5s;
+    
+}
+.submenu3 li a{ 
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu li:hover .submenu3{
+    visibility:visible;
+    opacity:1;
+}
+/*submenu4*/
+.submenu4{
+    position: absolute;
+    background:green;
+    width: 90%;
+    text-align: center;
+    visibility: hidden;
+    opacity:0;
+    transition: opacity 1.5s;
+    
+}
+.submenu4 li a{ 
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu li:hover .submenu4{
+    visibility:visible;
+    opacity:1;
+}
+
+img{
+   padding-left: 250px;
+   padding-top: 90px;
+
+}
